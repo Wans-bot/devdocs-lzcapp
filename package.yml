@@ -1,0 +1,38 @@
+package: cloud.lazycat.app.devdocs
+version: 2026.10.9
+name: DevDocs
+description: 离线 API 文档浏览器，一站式查阅 100+ 编程语言与框架文档
+author: freeCodeCamp
+license: MPL-2.0
+homepage: https://github.com/freeCodeCamp/devdocs
+min_os_version: 1.5.0
+permissions:
+  required:
+    - net.internet
+categories:
+  - 开发者工具
+locales:
+  zh-CN:
+    name: DevDocs 文档浏览器
+    description: >-
+      离线 API 文档浏览器，一站式查阅 100+
+      编程语言与框架文档（Python/JavaScript/Go/Rust/CSS/Docker/Kubernetes
+      等），支持全文搜索、快捷键操作、离线访问与多语言切换
+    usage: |-
+      1. 打开应用进入 DevDocs 主界面
+      2. 左侧为文档列表，点击任意文档源（如 Python、JavaScript、Go）即可加载对应文档
+      3. 顶部搜索框支持跨文档全文搜索，直接输入关键词即可检索
+      4. 按 `s` 打开设置，可自定义主题（浅色/深色）、字体大小与快捷键
+      5. 文档数据已内置在应用镜像中，无需外网即可查阅，支持离线使用
+  en-US:
+    name: DevDocs
+    description: >-
+      Offline API documentation browser with 100+ docs
+      (Python/JavaScript/Go/Rust/CSS/Docker/Kubernetes...), full-text search,
+      keyboard shortcuts, offline access
+    usage: |-
+      1. Open the app to the DevDocs main page
+      2. Pick a doc source from the left sidebar (Python, JavaScript, Go, ...)
+      3. Use the search box on top for cross-doc full-text search
+      4. Press `s` for settings: theme, font size and shortcuts
+      5. Docs are bundled in the image — fully offline, no internet needed

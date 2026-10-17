@@ -1,0 +1,23 @@
+application:
+  subdomain: devdocs
+  public_path:
+    - /service-worker.js
+    - /manifest.json
+    - /docs/
+    - /assets/
+    - /images/
+    - /favicon.ico
+    - /robots.txt
+    - /opensearch.xml
+    - /mathml.css
+  routes:
+    - /=http://devdocs-app.cloud.lazycat.app.devdocs.lzcapp:9292
+  health_check:
+    test_url: http://devdocs-app.cloud.lazycat.app.devdocs.lzcapp:9292/
+    start_period: 300s
+services:
+  devdocs-app:
+    image: registry.lazycat.cloud/wans/wans/devdocs-v5:90e118efa85f77e0
+    environment:
+      - LANG=C.UTF-8
+      - LC_ALL=C.UTF-8
