@@ -1,5 +1,5 @@
 package: cloud.lazycat.app.devdocs
-version: 2026.10.9
+version: 2026.10.9-1
 name: DevDocs
 description: 离线 API 文档浏览器，一站式查阅 100+ 编程语言与框架文档
 author: freeCodeCamp
