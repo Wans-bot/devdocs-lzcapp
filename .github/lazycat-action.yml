@@ -21,15 +21,12 @@ images: []
 stores:
   official:
     enabled: true
+    create_if_missing: true
     application:
+      language: zh
       brief: "离线 API 文档库"
       description: "DevDocs 把上百种开发文档聚合到一个界面，支持离线浏览与全文搜索，查 API 不再来回切标签页。"
-      keywords:
-        - "文档"
-        - "API"
-        - "离线"
-        - "开发"
-        - "搜索"
+      keywords: "文档, API, 离线, 开发, 搜索"
       support_pc: true
       screenshot_pc_files:
         - ".github/screenshots/pc-1.png"
